@@ -1,0 +1,19 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	color: red !important;
+}
+body {
+	background: #000;
+	padding: 30px;
+}
+#carouselExampleControls {
+	position: relative !important;
+}
+
+#carouselExampleControls::before {
+	content: '' !important;
+	width: 100% !important;
+	height: 100% !important;
+	background: rgba(0, 0, 0, 1);
+	position: absolute !important;
+}
